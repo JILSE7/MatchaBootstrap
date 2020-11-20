@@ -1,0 +1,76 @@
+//Variables
+$color: #025157;
+$color-secundario: #46484c;
+* {
+    body {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        #header {
+            #menu {
+                margin-top: 20px;
+                #contenedor-menu {
+                    ul {
+                        display: flex;
+                        justify-content: space-between;
+                        li {
+                            a {
+                                color: $color;
+                                font-size: 18px;
+                                transition: all 300ms;
+                            }
+                            a:hover {
+                                border-bottom: 3px solid $color;
+                            }
+                        }
+                    }
+                    #formulario {
+                        display: flex;
+                        flex-flow: row wrap;
+                        justify-content: center;
+                        a {
+                            color: $color;
+                        }
+                        button {
+                            background-color: $color;
+                            padding: 15px 10px;
+                            color: white;
+                        }
+                        button:hover {
+                            background-color: #67b54b;
+                        }
+                    }
+                }
+            }
+        }
+        #contenedor-principal {
+            #fila1 {
+                display: flex;
+                .jumbotron {
+                    h1 {
+                        font-family: 'Abril Fatface', cursive;
+                        color: $color;
+                        font-style: 68px;
+                        line-height: 85px;
+                        margin-bottom: 20px;
+                    }
+                    p {
+                        color: $color-secundario;
+                        font-weight: 300;
+                    }
+                    a {
+                        background-color: #67b54b;
+                        color: white;
+                    }
+                }
+                #video {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    img {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}

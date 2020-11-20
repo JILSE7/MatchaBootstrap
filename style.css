@@ -1,0 +1,63 @@
+* body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+* body #header #menu {
+  margin-top: 20px;
+}
+* body #header #menu #contenedor-menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+* body #header #menu #contenedor-menu ul li a {
+  color: #025157;
+  font-size: 18px;
+  transition: all 300ms;
+}
+* body #header #menu #contenedor-menu ul li a:hover {
+  border-bottom: 3px solid #025157;
+}
+* body #header #menu #contenedor-menu #formulario {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+* body #header #menu #contenedor-menu #formulario a {
+  color: #025157;
+}
+* body #header #menu #contenedor-menu #formulario button {
+  background-color: #025157;
+  padding: 15px 10px;
+  color: white;
+}
+* body #header #menu #contenedor-menu #formulario button:hover {
+  background-color: #67b54b;
+}
+* body #contenedor-principal #fila1 {
+  display: flex;
+}
+* body #contenedor-principal #fila1 .jumbotron h1 {
+  font-family: "Abril Fatface", cursive;
+  color: #025157;
+  font-style: 68px;
+  line-height: 85px;
+  margin-bottom: 20px;
+}
+* body #contenedor-principal #fila1 .jumbotron p {
+  color: #46484c;
+  font-weight: 300;
+}
+* body #contenedor-principal #fila1 .jumbotron a {
+  background-color: #67b54b;
+  color: white;
+}
+* body #contenedor-principal #fila1 #video {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+* body #contenedor-principal #fila1 #video img {
+  width: 70%;
+}
+
+/*# sourceMappingURL=style.css.map */

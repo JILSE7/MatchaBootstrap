@@ -1,0 +1,74 @@
+.navbar {
+    margin-top: 30px;
+}
+
+.navbar a {
+    font-size: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    transition: all 300ms;
+}
+
+.navbar ul li a {
+    color: #025157!important;
+}
+
+.navbar ul li:hover {
+    background-color: rgba(29, 29, 29, 0.59);
+}
+
+.navbar form a {
+    color: #025157!important;
+    padding: 0;
+}
+
+.navbar form button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #025157;
+    color: white;
+    font-weight: bold;
+}
+
+.video img {
+    height: 547px;
+    margin: 0 auto;
+}
+
+.tarjetas1 .card img {
+    width: 99%;
+    margin: 0 auto;
+    transition: all 300ms;
+}
+
+.tarjetas1 .card img:hover {
+    width: 100%;
+}
+
+.tarjetas2 h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #025157;
+}
+
+.tarjetas2 .card .card-body {
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-inner {
+    margin-top: 30px;
+}
+
+.carousel-inner img {
+    height: 500px;
+}

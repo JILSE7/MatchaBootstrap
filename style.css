@@ -1,6 +1,6 @@
-* body #contenedor-principal #fila4 h2, * body #contenedor-principal #fila3 #contenedor1 h2 {
+* body #contenedor-principal #fila10 .wrap #s1 h3, * body #contenedor-principal #fila7 #subcontenedor h2, * body #contenedor-principal #fila6 #tabla .table thead tr #principal, * body #contenedor-principal #fila5 #contenedor-2 #carusel-2 #info h2, * body #contenedor-principal #fila4 h2, * body #contenedor-principal #fila3 #contenedor1 h2 {
   font-family: "Abril Fatface", cursive;
-  color: #025157;
+  color: #034649;
   text-align: center;
 }
 
@@ -16,12 +16,12 @@
   justify-content: space-between;
 }
 * body #header #menu #contenedor-menu ul li a {
-  color: #025157;
+  color: #034649;
   font-size: 18px;
   transition: all 300ms;
 }
 * body #header #menu #contenedor-menu ul li a:hover {
-  border-bottom: 3px solid #025157;
+  border-bottom: 3px solid #034649;
 }
 * body #header #menu #contenedor-menu #formulario {
   display: flex;
@@ -29,10 +29,10 @@
   justify-content: center;
 }
 * body #header #menu #contenedor-menu #formulario a {
-  color: #025157;
+  color: #034649;
 }
 * body #header #menu #contenedor-menu #formulario button {
-  background-color: #025157;
+  background-color: #034649;
   padding: 15px 10px;
   color: white;
 }
@@ -48,7 +48,7 @@
 }
 * body #contenedor-principal #fila1 .jumbotron h1 {
   font-family: "Abril Fatface", cursive;
-  color: #025157;
+  color: #034649;
   font-style: 68px;
   line-height: 85px;
   margin-bottom: 20px;
@@ -124,6 +124,7 @@
 }
 * body #contenedor-principal #fila4 {
   justify-content: center;
+  margin-bottom: 150px;
 }
 * body #contenedor-principal #fila4 h2 {
   margin-bottom: 60px;
@@ -160,12 +161,271 @@
   font-size: 17px;
   color: #7e7e7e;
 }
-* body #contenedor-principal #fila5 #contenedor-2 #carrusel {
-  height: 600px;
-  border: 1px solid black;
+* body #contenedor-principal #fila5 {
+  padding: 30px;
 }
-* body #contenedor-principal #fila5 #contenedor-2 #carrusel .carouselExampleCaptions {
-  height: 600px;
+* body #contenedor-principal #fila5 #contenedor-2 #carusel #carouselExampleCaptions .carousel-inner {
+  box-shadow: 1px 1px 1px #ccc, 1px 1px 2px #ccc, 1px 1px 3px #ccc inset;
+  border-radius: 5%;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel #carouselExampleCaptions .carousel-inner .carousel-item {
+  height: 610px;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel #carouselExampleCaptions .carousel-inner .carousel-item img {
+  width: 340px;
+  height: 220px;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel #carouselExampleCaptions .carousel-inner .carousel-item .info {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel #carouselExampleCaptions .carousel-inner .carousel-item .info h5 {
+  font-weight: bold;
+  text-align: left;
+  color: #034649;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel #carouselExampleCaptions .carousel-inner .carousel-item .info p {
+  font-size: 25px;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel #carouselExampleCaptions .carousel-inner .carousel-item .info span {
+  color: #46484c;
+  margin: 20px 0;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel #carouselExampleCaptions .carousel-inner .carousel-item .info button {
+  background-color: #034649;
+  color: white;
+  font-weight: bold;
+  transition: all 300ms;
+  margin-top: 40px;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel #carouselExampleCaptions .carousel-inner .carousel-item .info button:hover {
+  background-color: #3db910;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel-2 {
+  padding-left: 40px;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel-2 #info h2 {
+  display: block;
+  text-align: left;
+  font-size: 60px;
+  width: 82%;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel-2 #info p {
+  font-size: 19px;
+  font-weight: 700;
+  color: #4a4a4aaf;
+  margin-top: 10px;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel-2 #info button {
+  width: 180px;
+  height: 48px;
+  background-color: #034649;
+  color: white;
+  font-weight: bold;
+  transition: all 300ms;
+}
+* body #contenedor-principal #fila5 #contenedor-2 #carusel-2 #info button:hover {
+  background-color: #3db910;
+}
+* body #contenedor-principal #fila6 {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-bottom: 100px;
+}
+* body #contenedor-principal #fila6 #tabla {
+  width: 85%;
+  margin: 0 auto;
+}
+* body #contenedor-principal #fila6 #tabla .table thead tr th {
+  height: 90px;
+  width: 185px;
+}
+* body #contenedor-principal #fila6 #tabla .table thead tr th img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+* body #contenedor-principal #fila6 #tabla .table thead tr #principal {
+  text-align: center;
+  line-height: 90px;
+  width: 550px;
+  font-size: 30px;
+}
+* body #contenedor-principal #fila6 #tabla .table tbody tr td {
+  height: 90px;
+}
+* body #contenedor-principal #fila6 #tabla .table tbody tr td img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+* body #contenedor-principal #fila6 #tabla .table tbody tr td h5 {
+  color: #46484c;
+}
+* body #contenedor-principal #fila6 #tabla .table tbody tr td p {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #4a4a4a;
+}
+* body #contenedor-principal #fila7 {
+  margin-bottom: 100px;
+}
+* body #contenedor-principal #fila7 #subcontenedor {
+  text-align: center;
+  height: 250px;
+}
+* body #contenedor-principal #fila7 #subcontenedor h2 {
+  font-size: 65px;
+  margin-bottom: 30px;
+}
+* body #contenedor-principal #fila7 #subcontenedor button {
+  width: 220px;
+  background-color: #034649;
+  color: white;
+  font-weight: bold;
+}
+* body #contenedor-principal #fila8 {
+  margin-bottom: 200px;
+}
+* body #contenedor-principal #fila8 .contenedor {
+  display: grid !important;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 230px 120px 110px 130px;
+  width: 100%;
+}
+* body #contenedor-principal #fila8 .contenedor img {
+  grid-column: 1/3;
+  margin: 0 auto;
+}
+* body #contenedor-principal #fila8 .contenedor .flotado {
+  width: 240px;
+  position: absolute;
+}
+* body #contenedor-principal #fila8 .contenedor #shopify-mailchimp {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  left: 15%;
+}
+* body #contenedor-principal #fila8 .contenedor #mailchimp {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  left: 77%;
+}
+* body #contenedor-principal #fila8 .contenedor #wordpress {
+  top: 80%;
+  left: 2%;
+}
+* body #contenedor-principal #fila8 .contenedor #klaviyo {
+  top: 84%;
+  left: 79%;
+}
+* body #contenedor-principal #fila8 .contenedor #facebook {
+  top: 85%;
+  left: 9%;
+}
+* body #contenedor-principal #fila9 {
+  align-content: center;
+}
+* body #contenedor-principal #fila9 #tarjetas {
+  align-content: center;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  margin-left: 50px;
+}
+* body #contenedor-principal #fila9 #tarjetas img {
+  display: block;
+  border-radius: 5%;
+}
+* body #contenedor-principal #fila10 {
+  padding: 30px;
+}
+* body #contenedor-principal #fila10 .wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #034649;
+  border-radius: 20px;
+  color: white;
+  height: 300px;
+}
+* body #contenedor-principal #fila10 .wrap #s1 {
+  flex-grow: 2;
+  justify-content: center;
+}
+* body #contenedor-principal #fila10 .wrap #s1 h3 {
+  color: white;
+  font-size: 35px;
+}
+* body #contenedor-principal #fila10 .wrap #s1 p {
+  text-align: center;
+}
+* body #contenedor-principal #fila10 .wrap #s1 a {
+  text-align: center;
+}
+* body #contenedor-principal #fila10 .wrap #s2 {
+  flex-grow: 1;
+  text-align: left;
+}
+* body #contenedor-principal #fila10 .wrap #s2 button {
+  height: 40px;
+  background-color: #3db910;
+}
+* footer #footer {
+  display: flex;
+  justify-content: space-around;
+}
+* footer #footer #suscribir p {
+  color: #034649;
+}
+* footer #footer #suscribir form {
+  width: 345px;
+  display: flex;
+}
+* footer #footer #suscribir form #input {
+  width: 245px;
+}
+* footer #footer #suscribir form button {
+  background-color: #034649;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+}
+* footer #footer #productos {
+  display: flex;
+  flex-direction: column;
+}
+* footer #footer #productos a {
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+* footer #footer #matcha {
+  display: flex;
+  flex-direction: column;
+}
+* footer #footer #matcha a {
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+* footer #footer #recursos {
+  display: flex;
+  flex-direction: column;
+}
+* footer #footer #recursos a {
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+* footer #fila11 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

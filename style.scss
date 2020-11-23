@@ -52,7 +52,6 @@ $prueba: 1px solid black;
         }
         #contenedor-principal {
             #fila1 {
-                border: $prueba;
                 display: flex;
                 .jumbotron {
                     margin-top: 35px;
@@ -263,7 +262,6 @@ $prueba: 1px solid black;
             #fila6 {
                 width: 100%;
                 margin: 0 auto;
-                border: $prueba;
                 margin-bottom: 100px;
                 #tabla {
                     width: 85%;
@@ -375,7 +373,6 @@ $prueba: 1px solid black;
                 align-content: center;
                 #tarjetas {
                     align-content: center;
-                    border: $prueba;
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-rows: repeat(2, 1fr);

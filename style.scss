@@ -154,7 +154,8 @@ $prueba: 1px solid black;
                     justify-content: space-around;
                     flex-wrap: wrap;
                     .items {
-                        width: 330px;
+                        width: 300px;
+                        padding: 10px;
                         min-height: 400px;
                         border: 1px solid #dadada;
                         .item {
@@ -349,23 +350,38 @@ $prueba: 1px solid black;
                         grid-column: 1/2;
                         grid-row: 1/2;
                         left: 15%;
+                        h5 {
+                            @extend %h2;
+                        }
                     }
                     #mailchimp {
                         grid-column: 2/3;
                         grid-row: 1/2;
                         left: 77%;
+                        h5 {
+                            @extend %h2;
+                        }
                     }
                     #wordpress {
-                        top: 80%;
+                        top: 76%;
                         left: 2%;
+                        h5 {
+                            @extend %h2;
+                        }
                     }
                     #klaviyo {
-                        top: 84%;
+                        top: 79%;
                         left: 79%;
+                        h5 {
+                            @extend %h2;
+                        }
                     }
                     #facebook {
-                        top: 85%;
+                        top: 80%;
                         left: 9%;
+                        h5 {
+                            @extend %h2;
+                        }
                     }
                 }
             }

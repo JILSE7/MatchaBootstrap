@@ -1,4 +1,4 @@
-* body #contenedor-principal #fila10 .wrap #s1 h3, * body #contenedor-principal #fila7 #subcontenedor h2, * body #contenedor-principal #fila6 #tabla .table thead tr #principal, * body #contenedor-principal #fila5 #contenedor-2 #carusel-2 #info h2, * body #contenedor-principal #fila4 h2, * body #contenedor-principal #fila3 #contenedor1 h2 {
+* body #contenedor-principal #fila10 .wrap #s1 h3, * body #contenedor-principal #fila8 .contenedor #facebook h5, * body #contenedor-principal #fila8 .contenedor #klaviyo h5, * body #contenedor-principal #fila8 .contenedor #wordpress h5, * body #contenedor-principal #fila8 .contenedor #mailchimp h5, * body #contenedor-principal #fila8 .contenedor #shopify-mailchimp h5, * body #contenedor-principal #fila7 #subcontenedor h2, * body #contenedor-principal #fila6 #tabla .table thead tr #principal, * body #contenedor-principal #fila5 #contenedor-2 #carusel-2 #info h2, * body #contenedor-principal #fila4 h2, * body #contenedor-principal #fila3 #contenedor1 h2 {
   font-family: "Abril Fatface", cursive;
   color: #034649;
   text-align: center;
@@ -134,7 +134,8 @@
   flex-wrap: wrap;
 }
 * body #contenedor-principal #fila4 #tarjetas .items {
-  width: 330px;
+  width: 300px;
+  padding: 10px;
   min-height: 400px;
   border: 1px solid #dadada;
 }
@@ -315,15 +316,15 @@
   left: 77%;
 }
 * body #contenedor-principal #fila8 .contenedor #wordpress {
-  top: 80%;
+  top: 76%;
   left: 2%;
 }
 * body #contenedor-principal #fila8 .contenedor #klaviyo {
-  top: 84%;
+  top: 79%;
   left: 79%;
 }
 * body #contenedor-principal #fila8 .contenedor #facebook {
-  top: 85%;
+  top: 80%;
   left: 9%;
 }
 * body #contenedor-principal #fila9 {
